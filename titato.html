@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TIC TAC TOE</title>
+</head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="titato.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="titato.css" />
+<!-- media="screen"  -->
+<body>
+  <h1>TIC TAC TOE</h1>
+  <section id="grid"><!--Game Page here-->
+    <table >
+      <tr>
+        <td><button type="button" class="tile" id="tile1"></td>
+        <td><button type="button" class="tile" id="tile2"></td>
+        <td><button type="button" class="tile" id="tile3"></td>
+      </tr>
+      <tr>
+        <td><button type="button" class="tile" id="tile4"></td>
+        <td><button type="button" class="tile" id="tile5"></td>
+        <td><button type="button" class="tile" id="tile6"></td>
+      </tr>
+      <tr>
+        <td><button type="button" class="tile" id="tile7"></td>
+        <td><button type="button" class="tile" id="tile8"></td>
+        <td><button type="button" class="tile" id="tile9"></td>
+      </tr>
+    </table>
+  </section><!--Game page end-->
+  <section id ="how_to_play">
+    <h2>How To Play: </h2>
+    <p>Player One marks "O".<br>
+      Player Two marks "X".<br>
+      Players get turns alternately to mark the board.
+      The player who fills a row/column/diagonal completely with his symbol will be the winner. Else, the game is tied.</p>
+    </section>
+    <button type="button" id="startNewGame">New Game</button>
+  </body>
+  </html>

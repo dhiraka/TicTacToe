@@ -1,0 +1,62 @@
+h1{
+  text-align: center;
+  font-size: 56px;
+  font-family: cursive,Georgia, Serif;
+  text-shadow: 2px 2px #9A5589;
+  color: white;
+}
+h2{
+  color: white;
+  text-shadow: 2px 2px #9A5589;
+}
+#startNewGame{
+  background-color: #9A5589;
+  color: white;
+  font-weight: bold;
+  font-size: 95%;
+  margin-top:60vh;
+  text-align: center;
+  width: 7vw;
+  height: 7vh;
+}
+
+#grid{
+  margin-left: 20vw;
+  margin-top: 5vh;
+  float: left;
+}
+
+#how_to_play{
+  margin-right: 20vw;
+  margin-top: 5vh;
+  width: 25vw;
+  float: right;
+}
+
+.tile{
+  width: 90px;
+  height: 90px;
+  background-color: #9A5589;
+}
+
+.playerX{
+  background-image: url("x.jpg");
+}
+
+.playerO{
+  background-image: url("O.jpg");
+}
+
+p{
+  font: italic bold 18px/30px Georgia, serif;
+  color: white;
+  text-shadow: 1px 1px #9A5589;
+  font-family: arial;
+}
+
+body{
+  background-color: aqua;
+  background-image: url('bg1.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
